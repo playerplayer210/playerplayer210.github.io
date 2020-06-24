@@ -1,0 +1,64 @@
+@font-face {
+    font-family: Roboto; /* Гарнитура шрифта */
+    src: url(https://playerplayer210.github.io/fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
+   }
+   h1 {
+    font-family: Roboto, 'Comic Sans MS';
+   }
+@font-face {
+    font-family: Roboto; /* Гарнитура шрифта */
+    src: url(https://playerplayer210.github.io/fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+   }
+   p {
+    font-family: Roboto, 'Comic Sans MS';
+   }
+header {
+ display: block; /* For old browsers */
+ height: 90px; /* Header's height */
+ background: #302f2f no-repeat center bottom;
+ position: relative; /* Относительное позиционирование */
+ border-radius: 10px;
+}
+.shadow {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5); /* Параметры тени */
+   }
+.Button {
+	background-color:#fafafa;
+	border-radius:28px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Arial;
+	font-size:17px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #cfcfcf;
+}
+.Button:hover {
+	background-color:#bdbdbd;
+}
+.Button:active {
+	position:relative;
+	top:1px;
+}
+A {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color: #dbdbdb;
+   } 
+A:hover { 
+    text-decoration: underline; /* Добавляем подчеркивание при наведении курсора на ссылку */
+    color: white; /* Ссылка красного цвета */
+} 
+h1 {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color: #ffffff;
+   } 
+i {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color: #ffffff;
+   } 
+p {
+    text-decoration: none; /* Убирает подчеркивание для ссылок */
+	color: #ffffff;
+   } 
