@@ -10,7 +10,7 @@
    }
 header {
  display: block; /* For old browsers */
- height: 90px; /* Header's height */
+ height: 120px; /* Header's height */
  background: #302f2f no-repeat center bottom;
  position: relative; /* Относительное позиционирование */
  border-radius: 10px;
