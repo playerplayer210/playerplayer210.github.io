@@ -59,7 +59,7 @@ p {
 	color: #ffffff;
    } 
 .pure-material-button-contained {
-    position: relative;
+    position: center;
     display: inline-block;
     box-sizing: border-box;
     border: none;
