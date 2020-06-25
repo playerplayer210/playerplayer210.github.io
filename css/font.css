@@ -2,11 +2,11 @@
     font-family: Roboto-Light; /* Гарнитура шрифта */
     src: url(https://playerplayer210.github.io/fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
 	
-    font-family: Roboto-Regular; /* Гарнитура шрифта */
+    font-family: Roboto; /* Гарнитура шрифта */
     src: url(https://playerplayer210.github.io/fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
    }
    p {
-    font-family: Roboto-Regular, 'Comic Sans MS';
+    font-family: Roboto, 'Comic Sans MS';
    }
    h1 {
     font-family: Roboto-Light, 'Comic Sans MS';
