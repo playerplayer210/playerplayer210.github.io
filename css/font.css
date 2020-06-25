@@ -1,8 +1,8 @@
 @font-face {
-    font-family: Roboto-Light; /* Гарнитура шрифта */
+    font-family: Roboto; /* Гарнитура шрифта */
     src: url(https://playerplayer210.github.io/fonts/Roboto-Light.ttf); /* Путь к файлу со шрифтом */
    h1 {
-    font-family: Roboto-Light, 'Comic Sans MS';
+    font-family: Roboto, 'Comic Sans MS';
    }
 @font-face {
     font-family: Roboto; /* Гарнитура шрифта */
