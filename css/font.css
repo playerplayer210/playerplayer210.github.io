@@ -161,10 +161,10 @@ p {
 .pure-material-button-contained:disabled::after {
     opacity: 0;
 }
-footer {
+#footer {
  display: block; /* For old browsers */
  height: 60px; /* Header's height */
  background: #302f2f no-repeat center bottom;
- position: relative; /* Относительное позиционирование */
+ position: fixed; /* Относительное позиционирование */
  border-radius: 20px;
 }
