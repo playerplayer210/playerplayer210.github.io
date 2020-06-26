@@ -166,7 +166,7 @@ p {
  height: 60px; /* Header's height */
  background: #302f2f no-repeat center bottom;
  position: fixed; /* Относительное позиционирование */
- border-radius: 20px;
+ border-radius: 0px;
  text-alight: center;
  left: 0; bottom: 0;
  width: 100%;
