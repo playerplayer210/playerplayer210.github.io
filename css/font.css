@@ -168,4 +168,5 @@ p {
  position: fixed; /* Относительное позиционирование */
  border-radius: 20px;
  text-alight: center;
+ left: 0; bottom: 0;
 }
