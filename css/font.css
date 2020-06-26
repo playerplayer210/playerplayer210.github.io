@@ -162,10 +162,10 @@ p {
     opacity: 0;
 }
 p::selection {
-   background-color: "white";
+   background: "white";
    color: "black";
 }
 p::-moz-selection {
-   background-color: "white";
+   background: "white";
    color: "black";
 }
