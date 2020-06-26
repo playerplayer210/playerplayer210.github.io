@@ -161,3 +161,11 @@ p {
 .pure-material-button-contained:disabled::after {
     opacity: 0;
 }
+p::selection {
+   background-color: "white";
+   color: "black";
+}
+p::-moz-selection {
+   background-color: "white";
+   color: "black";
+}
