@@ -6,39 +6,51 @@
 <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.blue-indigo.min.css" />
 <script defer src="https://code.getmdl.io/1.3.0/material.min.js"></script>
 <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
-
+<style>
+.text {
+  padding: 20px;
+  position: relative;
+}
+</style>
 </head>
 <body>
 <!-- Simple header with scrollable tabs. --> <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header mdl-layout--fixed-tabs"> <header class="mdl-layout__header"> <div class="mdl-layout__header-row"> <!-- Title --> <span class="mdl-layout-title">Player210's website <!-- Icon button -->
-<button onclick="document.location='../en/index.html'" class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect">
+<button id="demo-menu-lower-left"
+        class="mdl-button mdl-js-button mdl-button--icon">
   <i class="material-icons">translate</i>
 </button>
+
+<ul class="mdl-menu mdl-menu--bottom-left mdl-js-menu mdl-js-ripple-effect"
+    for="demo-menu-lower-left">
+  <li disabled class="mdl-menu__item mdl-item--icon"><i class="material-icons">check</i>Русский</li>
+  <li onclick="document.location='../en/index.html'" class="mdl-menu__item">English</li>
+</ul>
 </span> </div> <!-- Tabs --> <div class="mdl-layout__tab-bar mdl-js-ripple-effect"> <a href="#scroll-tab-1" class="mdl-layout__tab is-active mdl-tab--icon"><i class="material-icons"> home </i> Главная</a> <a href="#scroll-tab-2" class="mdl-layout__tab"><i class="material-icons"> layers </i> Веб-проекты</a> <a href="#scroll-tab-3" class="mdl-layout__tab"><i class="material-icons"> perm_contact_calendar </i> Контакты</a> </div> </header> <main class="mdl-layout__content"> <section class="mdl-layout__tab-panel is-active" id="scroll-tab-1"> <div class="page-content">
-<h3>  Обо мне</h3> <p>  Привет! Меня зовут Player210 и я 'разработчик' игр на Construct 2. Я изучаю Construct 2 уже 3 года. </p>
+<h3 class="text">  Обо мне</h3> <p class="text">  Привет! Меня зовут Player210 и я 'разработчик' игр на Construct 2. Я изучаю Construct 2 уже 3 года. </p>
 
 
 </div> </section>
  <section class="mdl-layout__tab-panel" id="scroll-tab-2"> <div class="page-content">
- <h3>Все мои веб-проекты</h3> <p>Простые анимации загрузок с помощью поведения LiteTween <!-- Flat button with ripple --> <button onclick="document.location='https://playerplayer210.github.io/en/projects/loadings/'" class="mdl-button mdl-js-button mdl-js-ripple-effect"> Открыть </button> 
-</p><p>Antistress <!-- Disabled flat button --> <button class="mdl-button mdl-js-button" disabled> Скоро </button></p>
+ <h3 class="text">Все мои веб-проекты</h3> <p class="text">Простые анимации загрузок с помощью поведения LiteTween <!-- Flat button with ripple --> <button onclick="document.location='https://playerplayer210.github.io/en/projects/loadings/'" class="mdl-button mdl-js-button mdl-js-ripple-effect"> Открыть </button> 
+</p><p class="text">Antistress <!-- Disabled flat button --> <button class="mdl-button mdl-js-button" disabled> Скоро </button></p>
 
 
 </div> </section>
 <section class="mdl-layout__tab-panel" id="scroll-tab-3"> <div class="page-content">
-<h3>Контакты</h3> <!-- Icon button -->
+<h3 class="text">Найдите меня в...</h3> <!-- Icon button -->
 <button onclick="document.location='https://twitter.com/playerplayer211'" id="tt1" class="mdl-button mdl-js-button mdl-button--icon mdl-button--colored mdl-js-ripple-effect">
 <span style="font-size: 26px;" class="iconify" data-icon="mdi-twitter" data-inline="false"></span>
 </button>
 <!-- Simple Tooltip for twitter -->
 <div class="mdl-tooltip" data-mdl-for="tt1">
-Я в Twitter
+Twitter
 </div>
 <button onclick="document.location='https://github.com/playerplayer210'" id="tt2" class="mdl-button mdl-js-button mdl-button--icon mdl-js-ripple-effect">
 <span style="font-size: 26px;" class="iconify" data-icon="mdi-github" data-inline="false"></span>
 </button>
 <!-- Simple Tooltip for girhub -->
 <div class="mdl-tooltip" data-mdl-for="tt2">
-Я в Github
+Github
 </div>
 </div> </main> </div>
 </body>
